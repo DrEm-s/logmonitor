@@ -1,0 +1,8 @@
+/.env
+/logmon/.env
+/.venv/
+/.idea/
+/__pycache__/
+/logmon/__pycache__/
+/logmon.egg-info/
+/dist/
