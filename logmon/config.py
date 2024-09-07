@@ -65,7 +65,7 @@ class Config:
 
     def bot_token_input(self) -> None:
         token_test = input('Enter bot token = ')
-        self.ENV_LOG_BOT_TOKEN = ''.join(e for e in token_test if e.isalnum() or e in [':', '_'])
+        self.ENV_LOG_BOT_TOKEN = ''.join(e for e in token_test if e.isalnum() or e in [':', '_', '-'])
 
     def chat_ids_input(self) -> None:
         print('Enter chat ids\nexample for one chat: 123123123\nexample for many chats: 123123123;213213213;321321321')
